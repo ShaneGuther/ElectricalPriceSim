@@ -74,12 +74,12 @@ clean: CMakeFiles/electrical_pricing_sim.dir/clean
 CMakeFiles/electrical_pricing_sim.dir/all:
 	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/depend
 	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target electrical_pricing_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target electrical_pricing_sim"
 .PHONY : CMakeFiles/electrical_pricing_sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/electrical_pricing_sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/electrical_pricing_sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/electrical_pricing_sim.dir/rule

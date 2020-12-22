@@ -1,6 +1,7 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
+
+#include "Reading.h"
+#include "Customer.h"
+#include <list>
 
 #ifndef ELECTRICALPRICESIM_TOUCUSTOMER_H
 #define ELECTRICALPRICESIM_TOUCUSTOMER_H
@@ -8,7 +9,7 @@
 
 class TOUCustomer : public Customer{
 public:
-    float computeBalance(list<Reading>& li){ }
+    float computeBalance(list<Reading>& li);
 };
 
 

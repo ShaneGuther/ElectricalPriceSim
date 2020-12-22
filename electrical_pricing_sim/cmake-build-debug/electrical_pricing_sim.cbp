@@ -80,6 +80,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Customer.cpp">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Customer.h">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Reading.cpp">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Reading.h">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Simulation.cpp">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Simulation.h">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TIERCustomer.cpp">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TIERCustomer.h">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TOUCustomer.cpp">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
+		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TOUCustomer.h">
+			<Option target="electrical_pricing_sim"/>
+		</Unit>
 		<Unit filename="/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/main.cpp">
 			<Option target="electrical_pricing_sim"/>
 		</Unit>

@@ -1,16 +1,13 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
 
 #include "Reading.h"
 
-Reading(float k, int t){
+Reading::Reading(float k, int t){
     kwh = k;
     timeHours = t;
 }
-void setKwh(float k){
+void Reading::setKwh(float k){
     kwh = k;
 }
-float getKwh(){
+float Reading::getKwh(){
     return kwh;
 }

@@ -1,9 +1,7 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
 
+#include "Reading.h"
 #include "TOUCustomer.h"
-float computeBalance(list<Reading>& li){
+float TOUCustomer::computeBalance(list<Reading>& li){
     float balance = 0;
     std::list<Reading>::iterator it;
     int j = 1;

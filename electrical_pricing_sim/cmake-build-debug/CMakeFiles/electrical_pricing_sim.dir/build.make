@@ -70,17 +70,92 @@ CMakeFiles/electrical_pricing_sim.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/main.cpp -o CMakeFiles/electrical_pricing_sim.dir/main.cpp.s
 
+CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o: CMakeFiles/electrical_pricing_sim.dir/flags.make
+CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o: ../Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o -c /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Simulation.cpp
+
+CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Simulation.cpp > CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.i
+
+CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Simulation.cpp -o CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.s
+
+CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o: CMakeFiles/electrical_pricing_sim.dir/flags.make
+CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o: ../Reading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o -c /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Reading.cpp
+
+CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Reading.cpp > CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.i
+
+CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Reading.cpp -o CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.s
+
+CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o: CMakeFiles/electrical_pricing_sim.dir/flags.make
+CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o: ../Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o -c /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Customer.cpp
+
+CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Customer.cpp > CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.i
+
+CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/Customer.cpp -o CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.s
+
+CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o: CMakeFiles/electrical_pricing_sim.dir/flags.make
+CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o: ../TOUCustomer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o -c /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TOUCustomer.cpp
+
+CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TOUCustomer.cpp > CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.i
+
+CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TOUCustomer.cpp -o CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.s
+
+CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o: CMakeFiles/electrical_pricing_sim.dir/flags.make
+CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o: ../TIERCustomer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o -c /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TIERCustomer.cpp
+
+CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TIERCustomer.cpp > CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.i
+
+CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/TIERCustomer.cpp -o CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.s
+
 # Object files for target electrical_pricing_sim
 electrical_pricing_sim_OBJECTS = \
-"CMakeFiles/electrical_pricing_sim.dir/main.cpp.o"
+"CMakeFiles/electrical_pricing_sim.dir/main.cpp.o" \
+"CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o" \
+"CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o" \
+"CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o" \
+"CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o" \
+"CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o"
 
 # External object files for target electrical_pricing_sim
 electrical_pricing_sim_EXTERNAL_OBJECTS =
 
 electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/main.cpp.o
+electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o
+electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o
+electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o
+electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o
+electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o
 electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/build.make
 electrical_pricing_sim: CMakeFiles/electrical_pricing_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable electrical_pricing_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shaneguther/CLionProjects/ElectricalPriceSim/electrical_pricing_sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable electrical_pricing_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/electrical_pricing_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

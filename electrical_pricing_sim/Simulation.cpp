@@ -1,13 +1,14 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
 
 #include "Simulation.h"
 #include "Customer.h"
 #include "TIERCustomer.h"
 #include "TOUCustomer.h"
+#include <vector>
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
-void printResult(){
+void Simulation::printResult(){
     vector<TOUCustomer> touVect;
     vector<TIERCustomer> tierVect;
     cout << "Simulation run : " << endl;

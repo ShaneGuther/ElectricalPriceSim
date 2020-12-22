@@ -123,6 +123,141 @@ electrical_pricing_sim/fast:
 	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/build
 .PHONY : electrical_pricing_sim/fast
 
+Customer.o: Customer.cpp.o
+
+.PHONY : Customer.o
+
+# target to build an object file
+Customer.cpp.o:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.o
+.PHONY : Customer.cpp.o
+
+Customer.i: Customer.cpp.i
+
+.PHONY : Customer.i
+
+# target to preprocess a source file
+Customer.cpp.i:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.i
+.PHONY : Customer.cpp.i
+
+Customer.s: Customer.cpp.s
+
+.PHONY : Customer.s
+
+# target to generate assembly for a file
+Customer.cpp.s:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Customer.cpp.s
+.PHONY : Customer.cpp.s
+
+Reading.o: Reading.cpp.o
+
+.PHONY : Reading.o
+
+# target to build an object file
+Reading.cpp.o:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.o
+.PHONY : Reading.cpp.o
+
+Reading.i: Reading.cpp.i
+
+.PHONY : Reading.i
+
+# target to preprocess a source file
+Reading.cpp.i:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.i
+.PHONY : Reading.cpp.i
+
+Reading.s: Reading.cpp.s
+
+.PHONY : Reading.s
+
+# target to generate assembly for a file
+Reading.cpp.s:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Reading.cpp.s
+.PHONY : Reading.cpp.s
+
+Simulation.o: Simulation.cpp.o
+
+.PHONY : Simulation.o
+
+# target to build an object file
+Simulation.cpp.o:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.o
+.PHONY : Simulation.cpp.o
+
+Simulation.i: Simulation.cpp.i
+
+.PHONY : Simulation.i
+
+# target to preprocess a source file
+Simulation.cpp.i:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.i
+.PHONY : Simulation.cpp.i
+
+Simulation.s: Simulation.cpp.s
+
+.PHONY : Simulation.s
+
+# target to generate assembly for a file
+Simulation.cpp.s:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/Simulation.cpp.s
+.PHONY : Simulation.cpp.s
+
+TIERCustomer.o: TIERCustomer.cpp.o
+
+.PHONY : TIERCustomer.o
+
+# target to build an object file
+TIERCustomer.cpp.o:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.o
+.PHONY : TIERCustomer.cpp.o
+
+TIERCustomer.i: TIERCustomer.cpp.i
+
+.PHONY : TIERCustomer.i
+
+# target to preprocess a source file
+TIERCustomer.cpp.i:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.i
+.PHONY : TIERCustomer.cpp.i
+
+TIERCustomer.s: TIERCustomer.cpp.s
+
+.PHONY : TIERCustomer.s
+
+# target to generate assembly for a file
+TIERCustomer.cpp.s:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TIERCustomer.cpp.s
+.PHONY : TIERCustomer.cpp.s
+
+TOUCustomer.o: TOUCustomer.cpp.o
+
+.PHONY : TOUCustomer.o
+
+# target to build an object file
+TOUCustomer.cpp.o:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.o
+.PHONY : TOUCustomer.cpp.o
+
+TOUCustomer.i: TOUCustomer.cpp.i
+
+.PHONY : TOUCustomer.i
+
+# target to preprocess a source file
+TOUCustomer.cpp.i:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.i
+.PHONY : TOUCustomer.cpp.i
+
+TOUCustomer.s: TOUCustomer.cpp.s
+
+.PHONY : TOUCustomer.s
+
+# target to generate assembly for a file
+TOUCustomer.cpp.s:
+	$(MAKE) -f CMakeFiles/electrical_pricing_sim.dir/build.make CMakeFiles/electrical_pricing_sim.dir/TOUCustomer.cpp.s
+.PHONY : TOUCustomer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... electrical_pricing_sim"
+	@echo "... Customer.o"
+	@echo "... Customer.i"
+	@echo "... Customer.s"
+	@echo "... Reading.o"
+	@echo "... Reading.i"
+	@echo "... Reading.s"
+	@echo "... Simulation.o"
+	@echo "... Simulation.i"
+	@echo "... Simulation.s"
+	@echo "... TIERCustomer.o"
+	@echo "... TIERCustomer.i"
+	@echo "... TIERCustomer.s"
+	@echo "... TOUCustomer.o"
+	@echo "... TOUCustomer.i"
+	@echo "... TOUCustomer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

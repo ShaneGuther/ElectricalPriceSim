@@ -1,17 +1,21 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
+//Cutoff for the tiered pricing structure (1000kwh/month)
+#define KWHCAP 1000
+
 #include "Reading.h"
+#include "Customer.h"
+#include <list>
+
+
 #ifndef ELECTRICALPRICESIM_TIERCUSTOMER_H
 #define ELECTRICALPRICESIM_TIERCUSTOMER_H
 
 
-class TIERCustomer : Customer {
-private:
-    //Cutoff for the tiered pricing structure (1000kwh/month)
-    double const kwhCap = 1000;
+using namespace std;
+
+
+class TIERCustomer : public Customer {
 public:
-    float computeBalance(list<Reading>& li){ }
+    float computeBalance(list<Reading>& li);
 };
 
 

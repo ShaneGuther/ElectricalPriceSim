@@ -12,9 +12,9 @@ private:
     //time considered to be in 24h time ie 0-23;
     int timeHours;
 public:
-    Reading(float k, int t){ }
-    void setKwh(float k){ }
-    float getKwh(){ }
+    Reading(float k, int t);
+    void setKwh(float k);
+    float getKwh();
 
 };
 

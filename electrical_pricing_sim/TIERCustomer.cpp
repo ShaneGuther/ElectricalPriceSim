@@ -1,16 +1,14 @@
-//
-// Created by Shane Guther on 2020-12-22.
-//
 
 #include "TIERCustomer.h"
+#include "Reading.h"
 
-float computeBalance(list<Reading>& li){
+float TIERCustomer::computeBalance(list<Reading>& li){
     float balance = 0;
     std::list<Reading>::iterator it;
     for(it = li.begin(); it != li.end(); it++){
-        if(balance < kwhCap) {
+        if(balance < float(KWHCAP)) {
             balance += float(it->getKwh() * 12.6);
-        }else if(balance >= kwhCap){
+        }else if(balance >= float(KWHCAP)){
             balance += float(it->getKwh() * 14.6);
         }
     }
